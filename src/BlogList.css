@@ -1,0 +1,22 @@
+.blog-card {
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .blog-card:hover {
+    border-color: #0d6efd;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.2);
+  }
+  
+  #blog-header {
+    color: red;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  #blog-body {
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
