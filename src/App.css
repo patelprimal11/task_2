@@ -1,12 +1,53 @@
 body {
-    background-color: #f4f6f9;
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
-  }
-  
-  .container {
-    max-width: 720px;
-    margin: auto;
-    padding-top: 2rem;
-  }
-  
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  overflow-x: hidden;
+}
+
+.dark-mode {
+  background-color: #121212 !important;
+  color: #f1f1f1;
+}
+
+.app-container {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Dark Mode Styles */
+.dark-mode .container,
+.dark-mode .card,
+.dark-mode .form-control,
+.dark-mode .form-label,
+.dark-mode .form-check-label,
+.dark-mode .btn {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #444;
+}
+
+.dark-mode .btn-outline-success {
+  color: #00e676;
+  border-color: #00e676;
+}
+
+.dark-mode .btn-outline-success:hover {
+  background-color: #00e676;
+  color: #000;
+}
+
+.dark-mode .badge {
+  background-color: #00bcd4;
+  color: #000;
+}
+
+.dark-mode .card:hover {
+  border: 1px solid #00bcd4;
+  transform: scale(1.01);
+}
+
+/* Fancy Header */
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px #ccc;
+}
